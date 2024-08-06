@@ -11,7 +11,7 @@ function App() {
     <>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></img></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,7 +32,7 @@ function App() {
         </ul>
       </div>
     </nav>
-
+so
     <div class="banner">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
         <defs>
