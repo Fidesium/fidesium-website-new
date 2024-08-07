@@ -9,31 +9,31 @@ function App() {
 
   return (
     <>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+    <div className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="#"><img src="logo.png" alt="Logo"></img></a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Features</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Pricing</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
 
-    <div class="banner">
+    <div className="banner">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
         <defs>
           <pattern id="pattern" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
@@ -42,7 +42,7 @@ function App() {
         </defs>
         <rect width="100" height="100" fill="url(#pattern)" />
       </svg>
-      <div class="banner-content">
+      <div className="banner-content">
         <h1>Welcome to Our Website</h1>
         <p>Your success is our mission</p>
       </div>
