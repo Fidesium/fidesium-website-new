@@ -5,16 +5,16 @@ const SVGbackground = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset;
-      document.querySelector('.rect1').style.transform = `translateY(${scrollPosition * -0.025}px)`;
-      document.querySelector('.rect2').style.transform = `translateY(${scrollPosition * -0.05}px)`;
-      document.querySelector('.rect3').style.transform = `translateY(${scrollPosition * -0.1}px)`;
-      document.querySelector('.rect4').style.transform = `translateY(${scrollPosition * -0.05}px)`;
-      document.querySelector('.rect5').style.transform = `translateY(${scrollPosition * -0.075}px)`;
-      document.querySelector('.rect6').style.transform = `translateY(${scrollPosition * -0.025}px)`;
-      document.querySelector('.rect7').style.transform = `translateY(${scrollPosition * -0.05}px)`;
-      document.querySelector('.rect8').style.transform = `translateY(${scrollPosition * -0.1}px)`;
-      document.querySelector('.rect9').style.transform = `translateY(${scrollPosition * -0.05}px)`;
-      document.querySelector('.rect10').style.transform = `translateY(${scrollPosition * -0.075}px)`;
+      document.querySelector('.rect1').style.transform = `translateY(${scrollPosition * 0.07}px)`;
+      document.querySelector('.rect2').style.transform = `translateY(${scrollPosition * 0.05}px)`;
+      document.querySelector('.rect3').style.transform = `translateY(${scrollPosition * 0.04}px)`;
+      document.querySelector('.rect4').style.transform = `translateY(${scrollPosition * 0.04}px)`;
+      document.querySelector('.rect5').style.transform = `translateY(${scrollPosition * 0.03}px)`;
+      document.querySelector('.rect6').style.transform = `translateY(${scrollPosition * 0.03}px)`;
+      document.querySelector('.rect7').style.transform = `translateY(${scrollPosition * 0.02}px)`;
+      document.querySelector('.rect8').style.transform = `translateY(${scrollPosition * 0.02}px)`;
+      document.querySelector('.rect9').style.transform = `translateY(${scrollPosition * 0.01}px)`;
+      document.querySelector('.rect10').style.transform = `translateY(${scrollPosition * 0.01}px)`;
     };
 
     window.addEventListener('scroll', handleScroll);
