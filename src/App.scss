@@ -78,9 +78,16 @@ h2 {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
-
-
+.subContent {
+  margin-top: 70px;
+}
+#root {
+  width: 100%;
+}
+.section-title {
+  text-align: center;
+  padding: 30px 0px;
+}
 
 /*-------------------------------- NAV ------------------------------------*/
 .navbar {
@@ -92,25 +99,39 @@ h2 {
     padding: 8px 16px;
     margin: 0px 16px;
   }
+  .nav-link {
+    border: 2px solid var(--c-dark2);
+  }
+  .nav-link:hover {
+      color: var(--c-blue-main);
+  }
   .btn-outline-primary {
     font-weight: 600;
   }
-}
-.brand {
-  img {
-    height: 30px !important;
+  .brand {
+    img {
+      height: 30px !important;
+    }
+  }
+  .navbar-toggler {
+    color: white;
+  }
+  .nav-link {
+    color: white;
+  }
+  .dropdown-menu {
+    background: var(--c-dark1);
+    .dropdown-item {
+      color: white;
+      padding: 8px 16px;
+      margin: 0px;
+    }
+    .dropdown-item:hover {
+      color: var(--c-blue-main);
+      background: var(--c-dark2);
+    }
   }
 }
-.navbar-toggler {
-  color: white;
-}
-.nav-link {
-  color: white;
-}
-.navbar-brand img {
-  height: 40px;
-}
-
 
 
 
@@ -337,8 +358,14 @@ h2 {
 /*-------------------------------- FOOTER ------------------------------------*/
 .footer {
   background: var(--c-dark1);
-  .terms {
-    text-align: right;
+  .legal {
+    font-size: .8em;
+    .terms {
+      text-align: right;
+      a {
+        color: white;
+      }
+    }
   }
   .brand {
 
@@ -351,6 +378,69 @@ h2 {
     padding-left: 0px;
     a {
       color: var(--c-blue-main);
+    }
+  }
+}
+
+
+
+
+
+/*-------------------------------- PRICING ------------------------------------*/
+.price-box {
+  margin: 8px 0px;
+  .price-head {
+      background-color: var(--c-dark1);
+      border-radius: 16px 16px 0px 0px;
+      margin: 0px 16px;
+      padding: 24px;
+      text-align: center;
+      min-height: 220px;
+      h3 {
+        font-size: .7em;
+        margin: 8px 0px;
+      }
+      P {
+          line-height: 48px;
+          span {
+              font-size: 48px;
+              font-weight: 700;
+              color: #FFF;
+          }
+      }
+  }
+  .price-body {
+      color: var(--c-dark1);
+      background-color: #ebebeb;
+      border-radius: 0px 0px 16px 16px;
+      margin: 0px 16px;
+      padding: 24px;
+      min-height: 400px;
+  }
+}
+
+
+
+
+
+/*-------------------------------- ABOUT ------------------------------------*/
+.about {
+  margin: 30px 0px;
+  h2 {
+    text-align: center;
+  }
+}
+.founder {
+  padding: 20px;
+  img {
+    width: 100%;
+  }
+  h5 {
+    color: var(--c-blue-main);
+    margin: 16px 0px;
+    img {
+      width: 24px;
+      margin: 0px 0px 0px 16px;
     }
   }
 }
