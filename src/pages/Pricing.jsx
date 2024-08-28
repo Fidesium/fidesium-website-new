@@ -22,7 +22,7 @@ export default function Pricing() {
 					    			<div className="price-head">
 						    			<h3>Fid Basic</h3>
 						    			<p><span>$399</span> / month</p>
-						    			<button className="btn btn-outline-primary">Start now</button>
+						    			<a href="https://calendly.com/fidesium/20min" target="_blank" className="btn btn-outline-primary">Book Demo</a>
 					    			</div>
 					    			<div className="price-body">
 						    			<h4>2 re-mint p/m</h4>
@@ -43,7 +43,7 @@ export default function Pricing() {
 								    <div className="price-head">
 									    <h3>Fid Pro</h3>
 									    <p><span>$799</span> / month</p>
-									    <button className="btn btn-outline-primary">Start now</button>
+						    			<a href="https://calendly.com/fidesium/20min" target="_blank" className="btn btn-outline-primary">Book Demo</a>
 									</div>
 									<div className="price-body">
 									    <h4>5 re-mint p/m</h4>
@@ -66,7 +66,7 @@ export default function Pricing() {
 						    		<div className="price-head">
 						    			<h3>Fid Enterprise</h3>
 						    			<p><span>$1499</span> / month</p>
-						    			<button className="btn btn-outline-primary">Contact us</button>
+						    			<a href="https://calendly.com/fidesium/20min" target="_blank" className="btn btn-outline-primary">Book Demo</a>
 						    		</div>
 						    		<div className="price-body">
 						    			<h4>10 re-mint p/m</h4>

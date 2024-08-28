@@ -23,7 +23,7 @@ const navigation = () => {
 	              <a className="btn nav-link" href="/Pricing">Pricing</a>
 	            </li>
 	            <li className="nav-item">
-	              <a className="btn btn-outline-primary" href="/SignUp">Signup</a>
+	              <a className="btn btn-outline-primary" target="_blank" href="https://calendly.com/fidesium/20min">Book Demo</a>
 	            </li>
 	          </ul>
 	        </div>
