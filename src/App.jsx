@@ -19,7 +19,7 @@ function App() {
       <div className="row justify-content-center">
         <div className="col-xs-12 col-sm-10 content">
           <h1>Recurring automated <span>smart contract</span> and <span>risk</span> audits</h1>
-          <p>Security pre and post deployment</p>
+          <p>Speed up delivery and protect your ecosystem</p>
           <a className="btn btn-outline-primary btn-lg" target="_blank" href="https://calendly.com/fidesium/20min">Book Demo</a>
         </div>
       </div>
@@ -37,8 +37,8 @@ function App() {
     <div className="container-fluid product my-5 py-2">
       <div className="row justify-content-center">
         <div className="col-xs-12 col-sm-10">
-          <h3>web3 security<br/>code based and on chain</h3>
-          <p>Fidesium takes security to the next level, not only making sure your smart contracts are error free, but also counterparty risk once your project is live.</p>
+          <h3>Ensure your code and ecosytem are exploit free</h3>
+          <p>Fidesium not only helps making sure your smart contracts are error free, but also alerts you to counterparty risk once your project is live.</p>
         </div>
       </div>
       <div className="row py-3 justify-content-around">
@@ -60,7 +60,7 @@ function App() {
               <rect x="110.029" y="102.225" width="17.948" height="17.948" rx="4" fill="#F2B04C" className="scar-13"></rect>
             </svg>
             <h2>Code Audit</h2>
-            <p className="p-5">Smart Contract and Risk audits using automation of open source libraries, fuzzing and custom LLMs to increase security, speed and accuracy in reporting.</p>
+            <p className="p-5">Deploy code faster and more reliably. Consistent code audits save developement time and resources. Mint a record of your security behaviour on chain to build trust with your community, clients and investors.</p>
           </div>
         </div>
         <div className="col-xs-12 col-sm-5 wrap-box">
@@ -81,7 +81,7 @@ function App() {
               <circle cx="24.8462" cy="69.5001" r="6.23077" fill="#EB5757" className="svg-elem-13"></circle>
             </svg>
             <h2>Deployed Audit</h2>
-            <p className="p-5">Real time scans of your contract and the risks present in it’s ecosystem. Evaluating AML, counterparty, flaws and other issues to help prevent loss.</p>
+            <p className="p-5">Know your counterparty risk, Fidesium monitors AML risks, liquidity problems, suspect whale behaviour and much more to keep you informed about your ecosystem. We also Mint a historical record for proof of your risk posture.</p>
           </div>
         </div>
       </div>
@@ -103,23 +103,35 @@ function App() {
         <div className="col-xs-12 col-sm-10">
           <div className="row">
             <div className="col-xs-12 col-sm-6 p-6">
-              <div className="wrap-box">
-                <p className="p-5">Smart Contract and Risk audits using automation of open source libraries, fuzzing and custom LLMs to increase security, speed and accuracy in reporting.</p>
+              <div className="wrap-box test">
+                <p className="p-5 quote">&ldquo;Smart Contract and Risk audits using automation of open source libraries, 
+                fuzzing and custom LLMs to increase security, speed and accuracy in reporting.&rdquo;</p>
+                <img src="/Sammy-Degen.png" className="profilePic"/>
+                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 p-6">
-              <div className="wrap-box">
-                <p className="p-5">Real time scans of your contract and the risks present in it’s ecosystem. Evaluating AML, counterparty, flaws and other issues to help prevent loss.</p>
+              <div className="wrap-box test">
+                <p className="p-5 quote">&ldquo;Real time scans of your contract and the risks present in it’s ecosystem. 
+                Evaluating AML, counterparty, flaws and other issues to help prevent loss.&rdquo;</p>
+                <img src="/Sammy-Degen.png" className="profilePic"/>
+                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 p-6">
-              <div className="wrap-box">
-                <p className="p-5">Smart Contract and Risk audits using automation of open source libraries, fuzzing and custom LLMs to increase security, speed and accuracy in reporting.</p>
+              <div className="wrap-box test">
+                <p className="p-5 quote">&ldquo;Smart Contract and Risk audits using automation of open source libraries, 
+                fuzzing and custom LLMs to increase security, speed and accuracy in reporting.&rdquo;</p>
+                <img src="/Sammy-Degen.png" className="profilePic"/>
+                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 p-6">
-              <div className="wrap-box">
-                <p className="p-5">Real time scans of your contract and the risks present in it’s ecosystem. Evaluating AML, counterparty, flaws and other issues to help prevent loss.</p>
+              <div className="wrap-box test">
+                <p className="p-5 quote">&ldquo;Real time scans of your contract and the risks present in it’s ecosystem. 
+                Evaluating AML, counterparty, flaws and other issues to help prevent loss.&rdquo;</p>
+                <img src="/Sammy-Degen.png" className="profilePic"/>
+                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
               </div>
             </div>
           </div>

@@ -242,6 +242,27 @@ h2 {
   .wrap-box {
     margin: 30px;
   }
+  .test {
+    .quote {
+      font-family: 'Times', serif;
+      font-size: 1.5rem;
+      display: inline-block;
+      min-height: 320px;
+    }
+    .profilePic {
+      display: inline-block;
+      padding: 16px;
+      width: 25%;
+    }
+    .profile {
+      display: inline-block;
+      text-align: left;
+      padding: 16px;
+      .title {
+        font-size: .7em;
+      }
+    }
+  }
 }
 
 
