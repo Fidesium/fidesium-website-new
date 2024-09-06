@@ -102,15 +102,14 @@ function App() {
       <div className="row justify-content-center py-3">
         <div className="col-xs-12 col-sm-10">
           <div className="row">
-            <div className="col-xs-12 col-sm-6 p-6">
+            <div className="col-sm-12 col-md-6 p-6">
               <div className="wrap-box test">
-                <p className="p-5 quote">&ldquo;Smart Contract and Risk audits using automation of open source libraries, 
-                fuzzing and custom LLMs to increase security, speed and accuracy in reporting.&rdquo;</p>
-                <img src="/Sammy-Degen.png" className="profilePic"/>
-                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
+                <p className="p-5 quote">&ldquo;Fidesium was instrumental to improving our dev cycle times while keeping our customers and the protocol secure.&rdquo;</p>
+                <img src="/Dheeraj-Earthfast.png" className="profilePic"/>
+                <p className="profile">- Dheeraj Manjunath<br/><span className="title">CEO Earthfast</span></p>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-6 p-6">
+            <div className="col-sm-12 col-md-6 p-6">
               <div className="wrap-box test">
                 <p className="p-5 quote">&ldquo;Real time scans of your contract and the risks present in it’s ecosystem. 
                 Evaluating AML, counterparty, flaws and other issues to help prevent loss.&rdquo;</p>
@@ -118,20 +117,18 @@ function App() {
                 <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-6 p-6">
+            <div className="col-sm-12 col-md-6 p-6">
               <div className="wrap-box test">
-                <p className="p-5 quote">&ldquo;Smart Contract and Risk audits using automation of open source libraries, 
-                fuzzing and custom LLMs to increase security, speed and accuracy in reporting.&rdquo;</p>
-                <img src="/Sammy-Degen.png" className="profilePic"/>
-                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
+                <p className="p-5 quote">&ldquo;Fidesium's tooling was flexible and fit well into our workflow.&rdquo;</p>
+                <img src="/Amit-Ordict.png" className="profilePic"/>
+                <p className="profile">Amit Kumar<br/><span className="title">Co-Founder Ordict</span></p>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-6 p-6">
+            <div className="col-sm-12 col-md-6 p-6">
               <div className="wrap-box test">
-                <p className="p-5 quote">&ldquo;Real time scans of your contract and the risks present in it’s ecosystem. 
-                Evaluating AML, counterparty, flaws and other issues to help prevent loss.&rdquo;</p>
-                <img src="/Sammy-Degen.png" className="profilePic"/>
-                <p className="profile">Sammy Verghese<br/><span className="title">CEO Degen Distillary</span></p>
+                <p className="p-5 quote">&ldquo;The audit produced very actionable results and found several vulnerabilities that others missed.&rdquo;</p>
+                <img src="/Tobias-altitude.png" className="profilePic"/>
+                <p className="profile">Tobias van Amstel<br/><span className="title">Co-Founder Altitude</span></p>
               </div>
             </div>
           </div>
@@ -150,7 +147,7 @@ function App() {
         <div className="col-xs-12 col-sm-10">
           <div className="row">
             <div className="col-xs-12 col-sm-6 p-6">
-              <img src="/code-audit.svg" className="my-5"/>
+              <img src="/RiskAudit1.png" className="screen my-5"/>
             </div>
             <div className="col-xs-12 col-sm-6 p-6 list">
               <div className="list-item-1">

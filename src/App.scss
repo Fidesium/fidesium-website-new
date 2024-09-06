@@ -88,6 +88,10 @@ h2 {
   text-align: center;
   padding: 30px 0px;
 }
+.screen {
+  width: 100%;
+  border-radius: 8px;
+}
 
 /*-------------------------------- NAV ------------------------------------*/
 .navbar {
@@ -247,7 +251,7 @@ h2 {
       font-family: 'Times', serif;
       font-size: 1.5rem;
       display: inline-block;
-      min-height: 320px;
+      min-height: 210px;
     }
     .profilePic {
       display: inline-block;
